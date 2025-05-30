@@ -1,5 +1,6 @@
 # import Post from "../database/schema.generated.graphql"
 
+
 type Query {
   feed: [Post!]!
   post(id: ID!): Post
